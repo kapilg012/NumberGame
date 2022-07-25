@@ -326,7 +326,7 @@ class GameScreenState extends State<GameScreen> {
               flag = true;
             }
           });
-          if (flag) {
+          if (flag){
             showDialog(
               context: context,
               builder: (ctx) => AlertDialog(
